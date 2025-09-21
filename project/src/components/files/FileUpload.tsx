@@ -85,7 +85,7 @@ export function FileUpload({ projectId, onUploadComplete, className }: FileUploa
       // Update all files to uploading status
       setFiles(prev => prev.map(f => ({ ...f, status: 'uploading' as const, progress: 50 })))
 
-      const response = await fetch(`http://localhost:5000/api/files/projects/${projectId}/upload`, {
+      const response = await fetch(`https://chatbot-platform-cxqh.onrender.com/api/files/projects/${projectId}/upload`, {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${localStorage.getItem('auth_token')}`

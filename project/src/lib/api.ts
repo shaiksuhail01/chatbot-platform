@@ -3,7 +3,7 @@ import { User, Project, Chat, Message, ApiResponse } from '../types'
 
 // Create axios instance with base configuration
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://chatbot-platform-cxqh.onrender.com/api',
   timeout: 30000,
   headers: {
     'Content-Type': 'application/json'

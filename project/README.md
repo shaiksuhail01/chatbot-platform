@@ -48,7 +48,7 @@ Before running this application, make sure you have:
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/shaiksuhail01/chatbot-platform.git
 cd project
 ```
 
